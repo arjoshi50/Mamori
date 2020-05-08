@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Mamori</string>
+    <string name="login_text">Log In</string>
+    <string name="email_id">E-mail Id</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Step 1: Sign Up</string>
+    <string name="signUp_text">Sign up for free</string>
+    <string name="signUp_with">Sign up with</string>
+    <string name="register_redirection">Don\'t have Account ? Sign Up</string>
+</resources>
