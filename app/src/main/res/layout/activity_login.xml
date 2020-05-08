@@ -22,7 +22,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="15dp"
-                app:cardBackgroundColor="@color/colorBackground"
+                app:cardBackgroundColor="@color/green_Daintree"
                 app:cardCornerRadius="10dp"
                 app:cardElevation="10dp"
                 app:cardUseCompatPadding="true"
@@ -76,18 +76,22 @@
                             android:hint="@string/password"
                             android:textSize="15sp"
                             android:textColor="@color/white"
-                            android:backgroundTint="@color/white"/>
+                            android:background="@drawable/input_design"
+                            android:textColorHint="@color/colorPrimaryDark"
+                            android:textStyle="bold"
+                            />
                     </com.google.android.material.textfield.TextInputLayout>
 
                     <Button
                         android:layout_marginTop="10dp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@color/white"
                         android:padding="10dp"
                         android:textSize="15sp"
                         android:text="@string/login_text"
                         android:textColor="@color/colorBackground"
+                        android:background="@drawable/button_background"
+                        android:textAllCaps="false"
                         android:layout_gravity="center_horizontal"/>
 
                     <TextView
